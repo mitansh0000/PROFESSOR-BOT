@@ -59,8 +59,8 @@ G_FILTER = is_enabled(environ.get("G_FILTER", "True"), True)
 BUTTON_LOCK = is_enabled(environ.get("BUTTON_LOCK", "True"), True)
 
 # url shortner
-SHORT_URL = environ.get("SHORT_URL", kpslink.in)
-SHORT_API = environ.get("SHORT_API", 7555f8d10b33f8a5f60f5a02d1d8c04536074238)
+SHORT_URL = environ.get("SHORT_URL", 'kpslink.in')
+SHORT_API = environ.get("SHORT_API", '7555f8d10b33f8a5f60f5a02d1d8c04536074238')
 
 # Others
 IMDB_DELET_TIME = int(environ.get('IMDB_DELET_TIME', "300"))
